@@ -1,4 +1,9 @@
-This folder contains all the HLS files associated with this implementation. 
-i.e. bypass data from the ARM processor, resolution 1280*720.
+This folder contains essential HLS files associated with the lane detection IP (LDW7ns IP). 
+ 
+Further details about the lane detection IP (LDW7ns IP): 
+Video input/output resolution: 1280*720.
+IP processes data in stream manner.
 
-LDW7ns0815 => Final design, lane detection, stream fashion
+Further details about this overlay(ReducedEdgeDec overlay):
+This overlay is built from adding custom IP into the base overlay realised by Xilinx. 
+In this implementation, data is bypassed from the ARM processor to achieve suitable frame rate.
